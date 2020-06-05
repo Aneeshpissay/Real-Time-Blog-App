@@ -153,8 +153,8 @@ router.route('/register')
       <br/>
       Token: <b>${verifyEmail}</b>
       
-      <br/><a class="btn btn-primary" href="https://advanced-blog-app.herokuapp.com/verify">Verify your account</a><br/>
-      Enjoy the Chat App<br/>
+      <br/><a class="btn btn-primary" href="https://real-time-blog-app.netlify.app/verify">Verify your account</a><br/>
+      Enjoy the Real Time Blog App<br/>
       Have a pleasant day.` 
 
       // Send email
@@ -271,7 +271,7 @@ router.post('/forgot', function(req, res, next) {
         subject: 'Node.js Password Reset',
         text: 'You are receiving this because you (or someone else) have requested the reset of the password for your account.\n\n' +
           'Please click on the following link, or paste this into your browser to complete the process:\n\n' +
-          'https://advanced-blog-app.herokuapp.com/reset/' + token + '\n\n' +
+          'https://real-time-blog-app.netlify.app/reset/' + token + '\n\n' +
           'If you did not request this, please ignore this email and your password will remain unchanged.\n'
       };
       smtpTransport.sendMail(mailOptions, function(err) {
