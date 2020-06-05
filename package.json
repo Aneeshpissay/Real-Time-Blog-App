@@ -4,8 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "build" : "npm run build"
+    "build": "node app.js"
   },
   "author": "Aneesh pissay",
   "license": "ISC",
