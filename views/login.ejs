@@ -1,0 +1,42 @@
+<head>
+<title>Login</title>
+</head>
+<%- include('partials/header') %>
+<div class="container page">
+<%- include('partials/messages') %>
+<div class="jumbotron shadow-lg">
+<h1 class="">Login</h1>
+<hr>
+<div class="col-md-6 text-center mx-auto">
+<form action="/login" method="POST">
+	<div class="form-group input-group">
+		<input class="form-control" type="text" id="username" name="username" placeholder="Enter your username or email" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<i class="fa fa-envelope" class="icon"></i>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<input class="form-control" type="password" name="password" id="pass" placeholder="Enter your password" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+				<a href="#" class="text-dark icon-click">
+					<i class="fa fa-eye icon"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-large btn-success btn-block">Login</button>
+	</div>
+</form>
+<div>
+<a class="btn btn-danger btn-block btn-large mb-2" href="/register">Sign Up</a>
+<a class="btn btn-primary" href="/">Go Back</a>
+<a class="btn btn-info" href="/forgot">Forgot Password?</a>
+</div>
+</div>
+</div>
+</div>
+<%- include('partials/footer') %>

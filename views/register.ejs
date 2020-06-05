@@ -1,0 +1,63 @@
+<head>
+<title>Register</title>
+</head>
+<%- include('partials/header') %>
+<div class="container page">
+<%- include('partials/messages') %>
+<div class="jumbotron shadow-lg">
+<h1>Sign Up</h1>
+<hr>
+<div class="col-md-6 text-center mx-auto change">
+
+<form action="/register" method="POST">
+
+	<div class="form-group input-group">
+		<input class="form-control" type="text" name="username" placeholder="Enter Username" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<i class="fa fa-user"></i>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<input class="form-control" type="email" id="email" name="email" placeholder="Enter your Email" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<i class="fa fa-envelope"></i>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<input class="form-control" type="password" id="pass1" name="password" placeholder="Enter your Password" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<a href="#" class="text-dark icon-click1">
+			<i class="fa fa-eye icon1"></i>
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<input class="form-control" type="password" id="pass2" name="password2" placeholder="Confirm Password" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<a href="#" class="text-dark icon-click2">
+			<i class="fa fa-eye icon2"></i>
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<button class="btn btn-large btn-success btn-block">Sign Up</button>
+	</div>
+	<a class="btn btn-primary" href="/">Go Back</a>
+	<a class="btn btn-warning" href="/login">Login</a>
+</form>
+</div>
+</div>
+</div>
+<%- include('partials/footer') %>
+<script type="text/javascript">
+	bootstrapValidate('#email', 'email:Enter a valid email address')
+	bootstrapValidate('#pass2','matches:#pass1:Your password should match')
+</script>

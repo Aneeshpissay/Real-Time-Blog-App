@@ -1,0 +1,265 @@
+body[data-light-mode="dark"] {
+  background-color: #343a40 ;
+  transition: 1s ease;
+}
+
+body[data-light-mode="light"] {
+  background-color: #fff ;
+  transition: 1s ease;
+}
+
+
+body[data-light-mode="dark"] .navbar{
+  background-color:#343a40; 
+}
+
+body[data-light-mode="dark"] .jumbotron{
+  background-color:#343a40; 
+}
+
+body[data-light-mode="dark"] .card{
+  background-color:#343a40; 
+  color: #fff;
+}
+
+body[data-light-mode="dark"] hr{
+  background-color:#fff; 
+}
+
+body[data-light-mode="light"] hr{
+  background-color:#343a40; 
+}
+
+body[data-light-mode="dark"] .badge{
+  color: #343a40;
+  background-color:#fff; 
+}
+
+body[data-light-mode="light"] .badge{
+  color: #fff;
+  background-color:#343a40;
+}
+
+body[data-light-mode="dark"] .dropdown-menu{
+  color: #343a40;
+  background-color:#fff; 
+}
+body[data-light-mode="dark"] .modal-content{
+  font-weight: bold;
+  color: #fff;
+  background-color:#343a40; 
+}
+
+body[data-light-mode="light"] .modal-content{
+  font-weight: bold;
+  color: #343a40;
+  background-color:#fff; 
+}
+
+body[data-light-mode="dark"] tr{
+  font-weight: bold;
+  color: #fff;
+}
+
+body[data-light-mode="light"] tr{
+  font-weight: bold;
+  color: #343a40;
+}
+
+body[data-light-mode="light"] .dropdown-menu{
+  color: #fff;
+  background-color:#343a40; 
+}
+
+body[data-light-mode="dark"] .badge-light{
+  background-color: #fff;
+  color: #343a40;
+}
+
+body[data-light-mode="light"] .badge-light{
+  background-color: #343a40;
+  color: #fff;
+}
+
+body[data-light-mode="dark"] .btn-light{
+  background-color: #fff;
+}
+
+body[data-light-mode="light"] .btn-light{
+  background-color: #343a40;
+}
+
+body[data-light-mode="dark"] .username:hover {
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+body[data-light-mode="light"] .username:hover {
+  color: #343a40;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+body[data-light-mode="light"] .fa-paper-plane {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] .fa-paper-plane {
+  color: #343a40;
+}
+button.nav-link {
+	border-radius: 20px;
+	outline: none;
+	border-color: #343a40;
+	margin: auto;
+}
+
+@media (min-width: 320px) {
+	button.nav-link {
+  		font-size: 0.85em;
+  	}
+}
+
+@media (min-width: 420px) {
+	button.nav-link {
+  		font-size: 1em;
+  	}
+}
+  
+
+body[data-light-mode="dark"] .about {
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: white;
+}
+
+body[data-light-mode="light"] .about {
+  border-radius: 50%;
+  margin-top: 100px;
+  background-color: #343a40;
+}
+
+body[data-light-mode="dark"] .form-control {
+  background-color: #343a40;
+}
+
+body[data-light-mode="dark"] textarea {
+  background-color: #343a40;
+}
+
+body[data-light-mode="dark"] input[type="text"]::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input[type="email"]::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input[type="password"]::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input[type="file"]::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input[type="search"]::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input:focus {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] textarea:focus {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] textarea {
+  color: #fff;
+}
+
+body[data-light-mode="light"] textarea {
+  border: 1px solid #343a40;
+}
+
+
+body[data-light-mode="dark"] textarea::placeholder {
+  color: #fff;
+}
+
+body[data-light-mode="dark"] input:-webkit-autofill {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+body[data-light-mode="dark"] input:-webkit-autofill:hover {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+body[data-light-mode="dark"] input:-webkit-autofill:focus {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;}
+
+body[data-light-mode="dark"] textarea:-webkit-autofill {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+body[data-light-mode="dark"] textarea:-webkit-autofill:hover {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+body[data-light-mode="dark"] textarea:-webkit-autofill:focus {
+  border: 1px solid #fff;
+  -webkit-text-fill-color: #fff;
+  transition: background-color 5000s ease-in-out 0s;
+}
+ 
+body[data-light-mode="light"] input {
+  border-color: #343a40;
+}
+
+body[data-light-mode="light"] input:focus {
+  border-color: #343a40;
+}
+
+body[data-light-mode="light"] input:hover {
+  border-color: #343a40;
+}
+
+body[data-light-mode="dark"] .bg{
+  background-color: #343a40;
+  outline: none;
+  border-color: transparent;
+  padding: 0px;
+  font-size: 15px;
+}
+
+body[data-light-mode="light"] .bg{
+  background-color: #fff;
+  outline: none;
+  border-color: transparent;
+  padding: 0px;
+  font-size: 15px;
+}
+
+body[data-light-mode="dark"] .fa-trash:hover{
+  color: #fff;
+}
+
+body[data-light-mode="light"] .fa-trash:hover{
+  color: #fff;
+}

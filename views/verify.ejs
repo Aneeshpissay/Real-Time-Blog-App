@@ -1,0 +1,39 @@
+<head>
+<title>Verify Email</title>
+</head>
+<%- include('partials/header') %>
+<div class="container page">
+<%- include('partials/messages') %>
+<div class="jumbotron shadow-lg">
+<h1>Validate Account</h1>
+<div class="col-md-6 text-center mx-auto">
+<form action="/verify" method="POST" data-toggle="validator" role="form">
+<div class="form-group input-group">
+		<input class="form-control" type="email" name="email" id="input" placeholder="Email Account" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<i class="fa fa-envelope"></i>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<input class="form-control" type="text" name="text" id="min" maxlength="32" placeholder="Enter your token here" required>
+		<div class="input-group-prepend">
+			<div class="input-group-text">
+			<i class="fa fa-check"></i>
+			</div>
+		</div>
+	</div>
+	<div class="form-group input-group">
+		<button class="btn btn-large btn-success btn-block">Validate Account</button>
+	</div>
+	<a class="btn btn-primary" href="/login">Go back</a>
+</form>
+</div>
+</div>
+</div>
+<%- include('partials/footer') %>
+<script type="text/javascript">
+	bootstrapValidate('#input', 'email:Enter a valid email address')
+	bootstrapValidate('#min', 'min:32:Enter a minimum of 32 characters')
+</script>

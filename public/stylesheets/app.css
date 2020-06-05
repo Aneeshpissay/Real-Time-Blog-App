@@ -1,0 +1,103 @@
+body{
+	color: green;
+	font-family: Quicksand;
+}
+
+h1 {
+	color: green;
+	text-align: center;
+}
+
+.custom.navbar-toggler { 
+    outline: none;
+}
+
+.navbar-brand:hover {
+	color: rgb(255, 204, 0);
+}
+
+.page {
+	position: relative;
+	justify-content: center;
+	min-height: 100vh;
+	text-align: center;
+	opacity: 0;
+	animation: 1s slidein 1s forwards;
+}
+
+
+@keyframes slidein{
+	100%{
+		opacity: 1;
+	}
+}
+
+i {
+	color: blue;
+}
+
+.btn {
+	border-radius: 20px;
+	outline: none;
+}
+
+.sticky-bottom{position:-webkit-sticky;position:relative;bottom:0;z-index:1020}
+
+textarea {
+	width: 450px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.card {
+	margin: auto;
+}
+
+.file {
+	height: 7vh;
+	color: green;
+}
+
+
+.end{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+
+.date{
+	font-size: 0.85em;
+	display: inline-block;
+}
+
+#scroll {
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.comment{
+	font-weight: bold;
+}
+
+h5.username {
+	 width: fit-content;
+}
+
+.dropdown-item{
+	color: blue;
+	font-weight: bold;
+}
+
+.dropdown-item:hover {
+ 	background-color: transparent;
+ 	color: blue;
+}
+
+.dropdown-item:active {
+  background-color: transparent;
+  color: blue;
+}
+.nav-link{
+	font-weight: bold;
+}
